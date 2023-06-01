@@ -86,12 +86,52 @@ function tenis() {
 ?>
     <div class="divTenis">
         <div class="container">
-            <div>
+            <div class="ftTenis">
+                <div class="tenisCat"><img src="img/t1.png"><a>Tenis R$30,00</a></div>
+                <div class="tenisCat"><img src="img/t2.png"><a>Tenis R$30,00</a></div>
+                <div class="tenisCat"><img src="img/t3.png"><a>Tenis R$30,00</a></div>
+                <div class="tenisCat"><img src="img/t4.png"><a>Tenis R$30,00</a></div>
+            </div>
+            <div class="ftTenis">
+                <div class="tenisCat"><img src="img/t1.png"><a>Tenis R$30,00</a></div>
+                <div class="tenisCat"><img src="img/t2.png"><a>Tenis R$30,00</a></div>
+                <div class="tenisCat"><img src="img/t3.png"><a>Tenis R$30,00</a></div>
+                <div class="tenisCat"><img src="img/t4.png"><a>Tenis R$30,00</a></div>
+            </div>
+            <div class="ftTenis">
+                <div class="tenisCat"><img src="img/t1.png"><a>Tenis R$30,00</a></div>
+                <div class="tenisCat"><img src="img/t2.png"><a>Tenis R$30,00</a></div>
+                <div class="tenisCat"><img src="img/t3.png"><a>Tenis R$30,00</a></div>
+                <div class="tenisCat"><img src="img/t4.png"><a>Tenis R$30,00</a></div>
+            </div>
+            <div class="ftTenis">
                 <div class="tenisCat"><img src="img/t1.png"><a>Tenis R$30,30</a></div>
                 <div class="tenisCat"><img src="img/t2.png"><a>Tenis R$30,30</a></div>
                 <div class="tenisCat"><img src="img/t3.png"><a>Tenis R$30,30</a></div>
                 <div class="tenisCat"><img src="img/t4.png"><a>Tenis R$30,30</a></div>
             </div>
+        </div>
+    </div> <?php 
+}
+
+function rodape(){
+?>
+    <div class="divRodape">
+        <div class="container">
+            <div class="">
+                <div>Texto texto</div>
+                <div>Texto texto texto texto texto texto texto texto texto</div>
+                <div><img src="img/face.png"><img src="img/yout.png"><img src="img/tel.png"><img src="img/in.png"></div>
+            </div>
+            <div class="">
+                <div>Texto</div>
+                <div>
+                    <li>texto</li>
+                    <li>texto</li>
+                    <li>texto</li>
+                </div>
+            </div>
+            <div class=""></div>
         </div>
     </div> <?php 
 }

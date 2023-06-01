@@ -18,5 +18,5 @@
                         
         </div> <?php
 
-        // $blocos->conheca();
+        $blocos->rodape();
 ?>
