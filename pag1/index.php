@@ -6,15 +6,17 @@
 
     <div class="tudo"> <?php
 
-        $blocos->topo(); ?>
+        $blocos->top(); ?>
 
         <div class="conteudo"> <?php
                         
-            $blocos->conhecamais(); 
+            $blocos->modelos(); 
+            $blocos->marcas(); 
+            $blocos->tenis(); 
             
             ?>
                         
         </div> <?php
 
-        $blocos->rodape();
+        // $blocos->conheca();
 ?>

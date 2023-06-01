@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+.container{
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.474);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* ------------------- top --------------------*/
+
+.divTop{
+    text-align: center;
+    width: 100%;
+    background-color: #00000060;
+    position: absolute;
+    top: 0px;
+}
+
+.icon{
+    width: 55px;
+    margin: 20px 0px 40px 142px;
+    float: left;
+}
+
+.topMenu{
+    float: left;
+    color: white;
+    margin-top: 35px;
+    margin-left: 5px;
+}
+
+.topMenu,a{
+    margin-right: 10px;
+}
+
+.topMenu,a:hover{
+    color: #fff;
+}
+
+.topItens{
+    display: inline-block;
+    margin-top: 35px;
+
+}
+
+.icoMenu{
+    display: inline-block;
+}
+
+.psq{
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/psq.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cart{
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/cart.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.entrar{
+    display: inline-block;
+}
+
+.btnMenu{
+    width: 144px;
+    height: 40px;
+    background-color: #34ffc9;
+    background-image: url(../img/Label.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+}
+
+/* ---------------------------Modelos -------------------------------- */
+
+.divModelos{
+    text-align: center;
+    background-image: url(../img/backg.png);
+    background-size: cover;
+    padding: 180px 142px;
+}
+
+.slick-prev{
+    left: -40px;
+    width: 34px;
+    height: 34px;
+}
+
+.slick-next{
+    right: -40px;
+    width: 34px;
+    height: 34px;
+}
+
+.down{
+    margin: 16px 65px;
+    float: left;
+    color: white;
+}
+
+.down,img{
+    margin-right: 10px;
+}
+
+/* ----------------------- Marcas --------------------- */
+
+.divMarcas{
+    padding-top: 50px;
+}
+
+/* ----------------------- Tenis --------------------- */
+
+.divTenis{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.tenisCat{
+    display: inline-block;
+    width: 240px;
+    height: 200px;
+}
