@@ -46,19 +46,19 @@ $(document).ready(function(){
 
      if (myParam == 1) {
         let el = document.getElementById('home');
-        console.log(el)
+
         el.style.cssText = 'color: white;';
      } if(myParam == 2){
       let el = document.getElementById('prod');
-        console.log(el)
+
         el.style.cssText = "color: white;";
      } if(myParam == 3){
       let el = document.getElementById('sup');
-        console.log(el)
+
         el.style.cssText = "color: white;";
      } if(myParam == 4){
       let el = document.getElementById('sob');
-        console.log(el)
+      
         el.style.cssText = "color: white;";
      }
 
