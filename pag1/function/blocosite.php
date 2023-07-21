@@ -1,4 +1,5 @@
 <?php
+#
 class blocos {
     function header() { ?>
         <!DOCTYPE html>
@@ -61,8 +62,8 @@ function modelos() {
                     <div><img src="img/Fotos.png"></div>
                 </div>
             </div>
-            <div class="down"><a><img src="img/down.png">Scroll Down</a>
-
+            <div class="down" id="seta_ani">
+                <a><img src="img/down.png">Scroll Down</a>
             </div>
         </div>
     </div> <?php 
@@ -73,10 +74,18 @@ function marcas() {
     <div class="divMarcas">
         <div class="container">
             <div class="autoplay">
-                <div><img src="img/m1.png"></div>
-                <div><img src="img/m2.png"></div>
-                <div><img src="img/m3.png"></div>
-                <div><img src="img/m4.png"></div>
+                <a href="#">
+                    <div><img src="img/m1.png"></div>
+                </a>
+                <a href="#">
+                    <div><img src="img/m2.png"></div>
+                </a>
+                <a href="#">
+                    <div><img src="img/m3.png"></div>
+                </a>
+                <a href="#">
+                    <div><img src="img/m4.png"></div>
+                </a>
             </div>
         </div>
     </div> <?php 
