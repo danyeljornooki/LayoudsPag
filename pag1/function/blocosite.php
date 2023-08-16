@@ -1,5 +1,4 @@
 <?php
-#
 class blocos {
     function header() { ?>
         <!DOCTYPE html>
