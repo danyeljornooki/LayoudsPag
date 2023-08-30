@@ -114,7 +114,8 @@ function tenis() {
             </div>
             <div class="ftTenis">
                 <div class="tenisCat"><img src="img/t1.png"><a>Tenis R$30,30</a></div>
-                <div class="tenisCat"><img src="img/t2.png"><a>Tenis R$30,30</a></div>
+                <div class="tenisCat"><img src="img/t2.png"><a>Tenis 
+                    R$30,30</a></div>
                 <div class="tenisCat"><img src="img/t3.png"><a>Tenis R$30,30</a></div>
                 <div class="tenisCat"><img src="img/t4.png"><a>Tenis R$30,30</a></div>
             </div>
